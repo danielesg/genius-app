@@ -1,0 +1,9 @@
+div.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
