@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './header/searchbar.component';
 import { LinkBarComponent } from './header/linkbar.component';
+import { SmallNewsCardComponent } from './news/smallnewscard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    LinkBarComponent
+    LinkBarComponent,
+    SmallNewsCardComponent
   ],
   imports: [
     BrowserModule

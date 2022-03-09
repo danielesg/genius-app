@@ -1,27 +1,24 @@
-<nav class="navbar navbar-light" style="background-color: #FEF700">
+<nav class="navbar navbar-light" style="background-color: #ffff64">
     <div class="container-fluid">
-
         <form class="d-flex justify-content-start">
         <input class="form-control me-2" type="search" placeholder="Search lyrics & more">
-        <button class="btn btn-light" type="submit">
-            <img src="/assets/search.svg" width=20 height=20>
+        <button class="btn btn-link" type="submit">
+          <svg class="bi" width="15" height="15" fill="currentColor">
+            <use xlink:href="/assets/bootstrap-icons.svg#search"/>
+          </svg>
         </button>
-      </form>
+        </form>
 
         <div class="logo">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/genius.png" width=150 height=50>
-            </a>
+          <a class="navbar-brand" href="#">
+                <img src="/assets/genius.png" width="150px" height="50px">
+          </a>
         </div>
-      
-      <div class="d-flex flex-row-reverse bd-highlight">
-        <div class="p-2 bd-highlight">
-            <a class="navbar-brand" href="#">SIGN IN</a>
+
+        <div class="btn-group btn-group-sm" role="group" aria-label="sign up">
+          <button class="btn btn-sign" type="submit">SIGN UP</button>
+          <button class="btn btn-sign" type="submit">SIGN IN</button>
         </div>
-        <div class="p-2 bd-highlight">
-            <a class="navbar-brand" href="#">SIGN UP</a>
-        </div>
-      </div>
 
     </div>
   </nav>
