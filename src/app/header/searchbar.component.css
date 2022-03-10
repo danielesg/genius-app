@@ -3,8 +3,8 @@ nav.navbar {
 }
 
 .logo {
-    margin: auto;
     margin-top: -12px;
+    padding-right: 130px;
 }
 
 form.d-flex {

@@ -1,29 +1,38 @@
 .card-body {
-    height: 400px;
-    position: relative;
+    height: 375px;
+    border:0
 }
 
-#card-content {
+.col-md-5 {
+    padding-left: 20px;
+}
+
+.card-content {
     pointer-events: none;
     font-family: "Yu Gothic UI", Helvetica, sans-serif;
-    padding-bottom: 5px;
+    padding-top: 7px;
     font-size: 12px;
 }
 
-.card-body:hover {
+hr {
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 1;
+    margin-left: -37px;
+}
+
+.card-title:hover {
     text-decoration: underline;
 }
 
 .card-title {
     font-family: "Yu Gothic UI", Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 35px;
+    padding-bottom: 10px;
 }
 
-#foot {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    bottom: 10px;
+.card-desc {
+    font-family: "Yu Gothic UI", Helvetica, sans-serif;
+    font-size: 14x;
 }
 
 .card-author {
@@ -39,6 +48,7 @@
 }
 
 #card-img {
-    width: 206px;
-    height: 100px;
+    width: 600px;
+    height: 375px;
+    float: right;
 }
