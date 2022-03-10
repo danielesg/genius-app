@@ -6,6 +6,8 @@ import { SearchBarComponent } from './header/searchbar.component';
 import { LinkBarComponent } from './header/linkbar.component';
 import { SubNewsCardComponent } from './news/subnewscard.component';
 import { MainNewsCardComponent } from './news/mainnewscard.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ChartsLayoutComponent } from './charts/chartslayout.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { MainNewsCardComponent } from './news/mainnewscard.component';
     SearchBarComponent,
     LinkBarComponent,
     SubNewsCardComponent,
-    MainNewsCardComponent
+    MainNewsCardComponent,
+    ChartsLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
