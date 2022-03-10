@@ -1,0 +1,44 @@
+.card-body {
+    height: 400px;
+    position: relative;
+}
+
+#card-content {
+    pointer-events: none;
+    font-family: "Yu Gothic UI", Helvetica, sans-serif;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.card-body:hover {
+    text-decoration: underline;
+}
+
+.card-title {
+    font-family: "Yu Gothic UI", Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+#foot {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+}
+
+.card-author {
+    font-family: "Yu Gothic UI", Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block
+}
+
+.card-date {
+    font-size: 12px;
+    padding-left: 4px;
+    display: inline-block
+}
+
+#card-img {
+    width: 206px;
+    height: 100px;
+}
