@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'subnews-card',
@@ -7,5 +7,17 @@ import { Component } from "@angular/core";
 })
 
 export class SubNewsCardComponent {
+    @Input() content: string;
+    @Input() title: string;
+    @Input() author: string;
+    @Input() date: string;
+    @Input() img: string;
 
+    constructor() {
+        this.content = "NEWS";
+        this.title = "Title";
+        this.author = "Author";
+        this.date = "MXX X 20XX"
+        this.img = "";
+    }
 }
