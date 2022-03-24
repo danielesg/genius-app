@@ -1,2 +1,16 @@
+<mainnews-card></mainnews-card>
+<br>
 
-<head><p> we're gonna move all the stuff from lab 3 to here</p></head>
+<div class="d-flex justify-content-center">
+    <div *ngFor="let subnews of subnewscards; let i = index">
+        <div class="px-4 divider" *ngIf="i<3">
+            <subnews-card content={{subnews.content}} title={{subnews.title}} author={{subnews.author}} date={{subnews.date}} img={{subnews.img}}>
+            </subnews-card>
+        </div>
+
+        <div class="px-4" *ngIf="i==3">
+            <subnews-card content={{subnews.content}} title={{subnews.title}} author={{subnews.author}} date={{subnews.date}} img={{subnews.img}}>
+            </subnews-card>
+        </div>
+    </div>
+</div>

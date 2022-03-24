@@ -2,15 +2,12 @@
     height: 375px;
 }
 
-.col-md-5 {
-    padding-left: 20px;
+.card:hover {
+    text-decoration: underline;
 }
 
-.card-content {
-    pointer-events: none;
-    font-family: "Yu Gothic UI", Helvetica, sans-serif;
-    padding-top: 7px;
-    font-size: 12px;
+.col-md-5 {
+    padding-left: 20px;
 }
 
 hr {
@@ -19,8 +16,11 @@ hr {
     margin-left: -37px;
 }
 
-.card-title:hover {
-    text-decoration: underline;
+.card-content {
+    pointer-events: none;
+    font-family: "Yu Gothic UI", Helvetica, sans-serif;
+    padding-top: 7px;
+    font-size: 12px;
 }
 
 .card-title {
@@ -47,7 +47,7 @@ hr {
 }
 
 #card-img {
-    width: 600px;
+    width: 620px;
     height: 375px;
     float: right;
 }
