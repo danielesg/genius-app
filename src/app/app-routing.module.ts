@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router, RouterModule, Routes } from '@angular/router';
-import { ChartsLayoutComponent } from './charts/chartslayout.component';
+import { ChartsLayoutComponent } from './path-charts/charts.layout.component';
 
 const routes:Routes = [
   {path: 'charts', component: ChartsLayoutComponent}

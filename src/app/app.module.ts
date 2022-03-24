@@ -4,10 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SearchBarComponent } from './header/searchbar.component';
 import { LinkBarComponent } from './header/linkbar.component';
-import { SubNewsCardComponent } from './news/subnewscard.component';
-import { MainNewsCardComponent } from './news/mainnewscard.component';
+import { SubNewsCardComponent } from './cards-news/subnewscard.component';
+import { MainNewsCardComponent } from './cards-news/mainnewscard.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ChartsLayoutComponent } from './charts/chartslayout.component';
+import { ChartsLayoutComponent } from './path-charts/charts.layout.component';
+import { FeaturedLayoutComponent } from './path-news/featured.layout.component';
+import { VideosLayoutComponent } from './path-videos/videos.layout.component';
+import { ShopLayoutComponent } from './path-shop/shop.layout.component';
+import { ExampleArticle } from './path-articles/example.article';
+import { ExampleSong } from './path-songs/example.song';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { ChartsLayoutComponent } from './charts/chartslayout.component';
     LinkBarComponent,
     SubNewsCardComponent,
     MainNewsCardComponent,
-    ChartsLayoutComponent
+    ChartsLayoutComponent,
+    FeaturedLayoutComponent,
+    VideosLayoutComponent,
+    ShopLayoutComponent,
+    ExampleArticle,
+    ExampleSong
   ],
   imports: [
     BrowserModule,

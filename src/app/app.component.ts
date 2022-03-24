@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { mock_subnewscard } from './news/mock_subnewscard';
-import { SubNewsCardModel } from './news/subnewscard.model';
+import { mock_subnewscard } from './cards-news/mock_subnewscard';
+import { SubNewsCardModel } from './cards-news/subnewscard.model';
 
 @Component({
   selector: 'app-root',
